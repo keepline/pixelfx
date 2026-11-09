@@ -1,6 +1,6 @@
 # Catalog
 
-244 effects in 21 categories. Every one is a file in
+253 effects in 22 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -256,11 +256,27 @@ curses, voids, tendrils, souls.
 | Grasping hands | `shadow/grasping-hands` | one-shot 3.1s | 200×116 | Shadow arms burst up out of a dark pool with a splash, clench their hands into claws, strain, and are dragged back under, fingers clawing at the air. |
 | Hex sigil | `shadow/hex-sigil` | one-shot 4.2s | 168×128 | A burning pen traces a cursed sigil in the air, its glyphs pop in one by one, then it flares white and crumbles into falling embers. |
 | Life steal | `shadow/life-steal` | one-shot 2.2s | 184×100 | A target on the right is struck and bleeds red orbs; they hang a moment, then whip home as comet streaks and flood the caster crimson. |
+| Medusa shadow serpents | `shadow/medusa-tendrils` | one-shot 3.2s | 208×130 | A dark pool opens; Medusa serpents with scaled olive bodies, lit rims, fanged heads and forked tongues lash up, writhe, and sink as it closes. |
 | Necro skulls | `shadow/necro-skulls` | loop 3s | 136×116 | Spectral skulls circle a cold green flame on a tilted orbit, passing behind and before it, eyes lit, trailing curls of ghost smoke. |
 | Shadow flames | `shadow/shadow-flames` | loop 2.4s | 104×112 | Inside-out fire on the floor: a black heart wrapped in violet flame with pale skin and tips, shedding embers and dark smoke. |
 | Shadow tendrils | `shadow/shadow-tendrils` | one-shot 3.2s | 208×130 | A dark pool opens on the floor; tentacles with lit rims and hooked tips lash up out of it with a splash, writhe, and sink back as it closes. |
 | Soul drain | `shadow/soul-drain` | loop 3.2s | 208×120 | Pale souls are torn loose on the right and dragged down a funnel of streaks into a black crystal vessel, which flares violet as each one lands. |
 | Void orb | `shadow/void-orb` | loop 3.2s | 168×160 | A black orb hangs in the air, a pale rim crawling round it; a dark vortex winds into it, motes and streaks are pulled in, and light bends round its edge. |
+
+## warlock
+
+medieval evil warlock kit: bolts, curses, plague, drain, rites, spikes, rifts, novas.
+
+| effect | id | | size | what it does |
+|---|---|---|---|---|
+| 血怒新星 | `warlock/blood-nova` | one-shot 1.15s | 176×144 | A blood-and-void detonation: white-hot flash, shock rings, debris, and a scorched ritual floor. |
+| 白骨尖刺 | `warlock/bone-spike` | one-shot 0.75s | 112×112 | A staggered crown of bone punches through ash, sheds grit, then crumbles back into the floor. |
+| 诅咒印记 | `warlock/curse-mark` | one-shot 0.85s | 96×96 | A thorned hex brands the target, blooms with violet runes, then crumbles into cursed embers. |
+| 邪能法阵 | `warlock/hex-circle` | loop 1.8s | 136×104 | An infernal ritual seal turns on the floor: layered runes, chasing light, rising violet motes. |
+| 瘟疫毒云 | `warlock/plague-cloud` | one-shot 1.25s | 144×112 | Poison vapour rolls outward in luminous layers with drifting spores and a sickly floor ring. |
+| 暗影飞弹 | `warlock/shadow-bolt` | one-shot 0.65s | 112×80 | A void heart flies from the hand on a violet trail, then ruptures in a flash of cursed sparks. |
+| 汲魂射线 | `warlock/soul-drain` | one-shot 1.05s | 176×88 | Braided violet tendrils drag spectral sparks from the target back into the caster's hand. |
+| 虚空裂隙 | `warlock/void-rift` | one-shot 1.05s | 128×128 | A jagged vertical gate tears open, bleeds violet light, and swallows orbiting motes before sealing. |
 
 ## status
 

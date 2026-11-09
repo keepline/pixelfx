@@ -156,11 +156,20 @@ import * as shadow_eclipse from "./shadow/eclipse.js";
 import * as shadow_grasping_hands from "./shadow/grasping-hands.js";
 import * as shadow_hex_sigil from "./shadow/hex-sigil.js";
 import * as shadow_life_steal from "./shadow/life-steal.js";
+import * as shadow_medusa_tendrils from "./shadow/medusa-tendrils.js";
 import * as shadow_necro_skulls from "./shadow/necro-skulls.js";
 import * as shadow_shadow_flames from "./shadow/shadow-flames.js";
 import * as shadow_shadow_tendrils from "./shadow/shadow-tendrils.js";
 import * as shadow_soul_drain from "./shadow/soul-drain.js";
 import * as shadow_void_orb from "./shadow/void-orb.js";
+import * as warlock_blood_nova from "./warlock/blood-nova.js";
+import * as warlock_bone_spike from "./warlock/bone-spike.js";
+import * as warlock_curse_mark from "./warlock/curse-mark.js";
+import * as warlock_hex_circle from "./warlock/hex-circle.js";
+import * as warlock_plague_cloud from "./warlock/plague-cloud.js";
+import * as warlock_shadow_bolt from "./warlock/shadow-bolt.js";
+import * as warlock_soul_drain from "./warlock/soul-drain.js";
+import * as warlock_void_rift from "./warlock/void-rift.js";
 import * as status_bleeding from "./status/bleeding.js";
 import * as status_burning from "./status/burning.js";
 import * as status_charmed from "./status/charmed.js";
@@ -404,11 +413,20 @@ export const effects = {
   "shadow/grasping-hands": shadow_grasping_hands,
   "shadow/hex-sigil": shadow_hex_sigil,
   "shadow/life-steal": shadow_life_steal,
+  "shadow/medusa-tendrils": shadow_medusa_tendrils,
   "shadow/necro-skulls": shadow_necro_skulls,
   "shadow/shadow-flames": shadow_shadow_flames,
   "shadow/shadow-tendrils": shadow_shadow_tendrils,
   "shadow/soul-drain": shadow_soul_drain,
   "shadow/void-orb": shadow_void_orb,
+  "warlock/blood-nova": warlock_blood_nova,
+  "warlock/bone-spike": warlock_bone_spike,
+  "warlock/curse-mark": warlock_curse_mark,
+  "warlock/hex-circle": warlock_hex_circle,
+  "warlock/plague-cloud": warlock_plague_cloud,
+  "warlock/shadow-bolt": warlock_shadow_bolt,
+  "warlock/soul-drain": warlock_soul_drain,
+  "warlock/void-rift": warlock_void_rift,
   "status/bleeding": status_bleeding,
   "status/burning": status_burning,
   "status/charmed": status_charmed,

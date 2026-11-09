@@ -4,7 +4,7 @@
 import { effects, categories } from "../src/fx/index.js";
 import { createFrame, clearFrame, createFx, createAct, actBounds, composite, backdrop, drawActor, painterFor, stockActor, actorAlphaOf, PAL, BACKDROPS } from "../src/core/index.js";
 
-const REPO = "https://github.com/patch-gg/pixelfx";
+const REPO = "https://github.com/keepline/pixelfx";
 const FX = Object.entries(effects).map(([id, mod]) => {
   const meta = { fps: 30, bg: "dark", loop: false, duration: 1, tags: [], options: {}, ...mod.meta };
   return { id, cat: id.split("/")[0], name: meta.name, mod: { ...mod, meta }, meta };
