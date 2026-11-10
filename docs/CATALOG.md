@@ -1,6 +1,6 @@
 # Catalog
 
-253 effects in 22 categories. Every one is a file in
+261 effects in 23 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -277,6 +277,21 @@ medieval evil warlock kit: bolts, curses, plague, drain, rites, spikes, rifts, n
 | 暗影飞弹 | `warlock/shadow-bolt` | one-shot 0.65s | 112×80 | A void heart flies from the hand on a violet trail, then ruptures in a flash of cursed sparks. |
 | 汲魂射线 | `warlock/soul-drain` | one-shot 1.05s | 176×88 | Braided violet tendrils drag spectral sparks from the target back into the caster's hand. |
 | 虚空裂隙 | `warlock/void-rift` | one-shot 1.05s | 128×128 | A jagged vertical gate tears open, bleeds violet light, and swallows orbiting motes before sealing. |
+
+## archer
+
+spirit archer kit: emerald arrows, moon marks, living vines, wind and spectral hawks.
+
+| effect | id | | size | what it does |
+|---|---|---|---|---|
+| 箭雨 | `archer/arrow-rain` | one-shot 2s | 320×224 | Many moonlit shafts descend across a glowing ground zone with dust and leaf scatter. |
+| 扇形连射 | `archer/fan-volley` | one-shot 2s | 320×224 | Three staggered spirit arrows fan into separate glowing impacts. |
+| 月印 | `archer/moon-mark` | one-shot 2s | 320×224 | A gentle silver crescent brands the quarry with a gold rim and drifting light. |
+| 穿透光矢 | `archer/piercing-shaft` | one-shot 2s | 320×224 | A long silver wind shaft pierces through with emerald ribbons and gold wake. |
+| 精灵箭 | `archer/spirit-arrow` | one-shot 2s | 320×224 | A gathered spirit charge releases a silver arrow on leafy gold ribbons. |
+| 灵鹰 | `archer/spirit-hawk` | one-shot 2s | 320×224 | A luminous hawk stoops from above and tears through in a burst of spectral feathers. |
+| 缚藤箭 | `archer/vine-shot` | one-shot 2s | 320×224 | A spirit arrow strikes first, then living vines climb and bind the struck target. |
+| 疾风步 | `archer/wind-step` | one-shot 2s | 320×224 | A backward bow dodge leaves wind ribbons, leaf echoes and dust at the feet. |
 
 ## status
 

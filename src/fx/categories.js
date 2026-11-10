@@ -16,6 +16,7 @@ export const categories = [
   { id: "holy", name: "holy", blurb: "heals, halos, pillars of light" },
   { id: "shadow", name: "shadow", blurb: "curses, voids, tendrils, souls" },
   { id: "warlock", name: "warlock", blurb: "medieval evil warlock kit: bolts, curses, plague, drain, rites, spikes, rifts, novas" },
+  { id: "archer", name: "archer", blurb: "spirit archer kit: emerald arrows, moon marks, living vines, wind and spectral hawks" },
   { id: "status", name: "status", blurb: "burning, frozen, poisoned, asleep" },
   { id: "nature", name: "nature", blurb: "poison, vines, thorns, quakes" },
   { id: "weather", name: "weather", blurb: "rain, snow, fog, aurora" },

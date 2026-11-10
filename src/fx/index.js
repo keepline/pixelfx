@@ -170,6 +170,14 @@ import * as warlock_plague_cloud from "./warlock/plague-cloud.js";
 import * as warlock_shadow_bolt from "./warlock/shadow-bolt.js";
 import * as warlock_soul_drain from "./warlock/soul-drain.js";
 import * as warlock_void_rift from "./warlock/void-rift.js";
+import * as archer_arrow_rain from "./archer/arrow-rain.js";
+import * as archer_fan_volley from "./archer/fan-volley.js";
+import * as archer_moon_mark from "./archer/moon-mark.js";
+import * as archer_piercing_shaft from "./archer/piercing-shaft.js";
+import * as archer_spirit_arrow from "./archer/spirit-arrow.js";
+import * as archer_spirit_hawk from "./archer/spirit-hawk.js";
+import * as archer_vine_shot from "./archer/vine-shot.js";
+import * as archer_wind_step from "./archer/wind-step.js";
 import * as status_bleeding from "./status/bleeding.js";
 import * as status_burning from "./status/burning.js";
 import * as status_charmed from "./status/charmed.js";
@@ -427,6 +435,14 @@ export const effects = {
   "warlock/shadow-bolt": warlock_shadow_bolt,
   "warlock/soul-drain": warlock_soul_drain,
   "warlock/void-rift": warlock_void_rift,
+  "archer/arrow-rain": archer_arrow_rain,
+  "archer/fan-volley": archer_fan_volley,
+  "archer/moon-mark": archer_moon_mark,
+  "archer/piercing-shaft": archer_piercing_shaft,
+  "archer/spirit-arrow": archer_spirit_arrow,
+  "archer/spirit-hawk": archer_spirit_hawk,
+  "archer/vine-shot": archer_vine_shot,
+  "archer/wind-step": archer_wind_step,
   "status/bleeding": status_bleeding,
   "status/burning": status_burning,
   "status/charmed": status_charmed,
