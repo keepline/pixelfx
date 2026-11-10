@@ -1,6 +1,6 @@
 # Catalog
 
-261 effects in 23 categories. Every one is a file in
+293 effects in 27 categories. Every one is a file in
 `src/fx/<category>/<name>.js`; render any of them with `node tools/render.mjs <id> --gif`.
 
 ## moves
@@ -424,3 +424,63 @@ slimes, bats, ghosts, frogs.
 | Slime | `critters/slime` | loop 1.8s | 112×88 | A glossy slime hops in place: it squashes to wind up, stretches into the jump, rounds out in the air, splats down flinging droplets that creep back, then wobbles and blinks. |
 | Snake | `critters/snake` | loop 2.4s | 136×56 | A snake slithers along the floor, head raised: humps rise and roll back down its patterned body to the tail, dust puffs where it touches down, its forked tongue flicks. |
 | Wisp | `critters/wisp` | loop 3.2s | 128×104 | A will-o'-the-wisp loops a figure-eight over the floor: a little soul-flame with a face, its flame tail licking up and streaming behind, shedding puffs and sparks. |
+
+## 圣殿骑士
+
+圣殿骑士八种战斗技能.
+
+| effect | id | | size | what it does |
+|---|---|---|---|---|
+| 天使降临 | `templar/angelic-descent` | one-shot 2.4s | 288×224 | 圣殿骑士施放天使降临，蓄势、命中与余辉消散。 |
+| 奉献圣地 | `templar/consecrated-ground` | one-shot 2.4s | 288×224 | 圣殿骑士施放奉献圣地，蓄势、命中与余辉消散。 |
+| 守护壁垒 | `templar/guardian-rampart` | one-shot 2.4s | 288×224 | 圣殿骑士施放守护壁垒，蓄势、命中与余辉消散。 |
+| 圣光斩 | `templar/holy-cleave` | one-shot 2.4s | 288×224 | 圣殿骑士施放圣光斩，蓄势、命中与余辉消散。 |
+| 审判光柱 | `templar/judgment-pillar` | one-shot 2.4s | 288×224 | 圣殿骑士施放审判光柱，蓄势、命中与余辉消散。 |
+| 冲锋突刺 | `templar/lance-charge` | one-shot 2.4s | 288×224 | 圣殿骑士施放冲锋突刺，蓄势、命中与余辉消散。 |
+| 回旋圣锤 | `templar/orbiting-hammer` | one-shot 2.4s | 288×224 | 圣殿骑士施放回旋圣锤，蓄势、命中与余辉消散。 |
+| 盾牌猛击 | `templar/shield-bash` | one-shot 2.4s | 288×224 | 圣殿骑士施放盾牌猛击，蓄势、命中与余辉消散。 |
+
+## 寒霜法师
+
+寒霜法师八种战斗技能.
+
+| effect | id | | size | what it does |
+|---|---|---|---|---|
+| 极寒射线 | `frost-mage/absolute-ray` | one-shot 2.4s | 288×224 | 寒霜法师施放极寒射线，蓄势、命中与余辉消散。 |
+| 暴风雪 | `frost-mage/blizzard` | one-shot 2.4s | 288×224 | 寒霜法师施放暴风雪，蓄势、命中与余辉消散。 |
+| 彗星坠落 | `frost-mage/comet-fall` | one-shot 2.4s | 288×224 | 寒霜法师施放彗星坠落，蓄势、命中与余辉消散。 |
+| 霜冻新星 | `frost-mage/freezing-nova` | one-shot 2.4s | 288×224 | 寒霜法师施放霜冻新星，蓄势、命中与余辉消散。 |
+| 冰封牢笼 | `frost-mage/frozen-prison` | one-shot 2.4s | 288×224 | 寒霜法师施放冰封牢笼，蓄势、命中与余辉消散。 |
+| 冰墙 | `frost-mage/glacier-wall` | one-shot 2.4s | 288×224 | 寒霜法师施放冰墙，蓄势、命中与余辉消散。 |
+| 寒冰护盾 | `frost-mage/ice-aegis` | one-shot 2.4s | 288×224 | 寒霜法师施放寒冰护盾，蓄势、命中与余辉消散。 |
+| 冰枪 | `frost-mage/ice-lance` | one-shot 2.4s | 288×224 | 寒霜法师施放冰枪，蓄势、命中与余辉消散。 |
+
+## 猩红刺客
+
+猩红刺客八种战斗技能.
+
+| effect | id | | size | what it does |
+|---|---|---|---|---|
+| 锁链钩索 | `crimson-assassin/chain-hook` | one-shot 2.4s | 288×224 | 猩红刺客施放锁链钩索，蓄势、命中与余辉消散。 |
+| 绯红处决 | `crimson-assassin/crimson-execution` | one-shot 2.4s | 288×224 | 猩红刺客施放绯红处决，蓄势、命中与余辉消散。 |
+| 双刃交叉 | `crimson-assassin/crossed-daggers` | one-shot 2.4s | 288×224 | 猩红刺客施放双刃交叉，蓄势、命中与余辉消散。 |
+| 飞刃 | `crimson-assassin/flying-blades` | one-shot 2.4s | 288×224 | 猩红刺客施放飞刃，蓄势、命中与余辉消散。 |
+| 残影闪步 | `crimson-assassin/phantom-step` | one-shot 2.4s | 288×224 | 猩红刺客施放残影闪步，蓄势、命中与余辉消散。 |
+| 影袭背刺 | `crimson-assassin/shadow-backstab` | one-shot 2.4s | 288×224 | 猩红刺客施放影袭背刺，蓄势、命中与余辉消散。 |
+| 烟幕 | `crimson-assassin/smoke-screen` | one-shot 2.4s | 288×224 | 猩红刺客施放烟幕，蓄势、命中与余辉消散。 |
+| 毒刃爆发 | `crimson-assassin/venom-burst` | one-shot 2.4s | 288×224 | 猩红刺客施放毒刃爆发，蓄势、命中与余辉消散。 |
+
+## 矮人工匠
+
+矮人工匠八种战斗技能.
+
+| effect | id | | size | what it does |
+|---|---|---|---|---|
+| 自动炮塔 | `dwarf-artificer/auto-turret` | one-shot 2.4s | 288×224 | 矮人工匠施放自动炮塔，蓄势、命中与余辉消散。 |
+| 熔炉喷焰 | `dwarf-artificer/forge-breath` | one-shot 2.4s | 288×224 | 矮人工匠施放熔炉喷焰，蓄势、命中与余辉消散。 |
+| 磁力陷阱 | `dwarf-artificer/magnetic-snare` | one-shot 2.4s | 288×224 | 矮人工匠施放磁力陷阱，蓄势、命中与余辉消散。 |
+| 机械空袭 | `dwarf-artificer/mechanical-airstrike` | one-shot 2.4s | 288×224 | 矮人工匠施放机械空袭，蓄势、命中与余辉消散。 |
+| 火药炸弹 | `dwarf-artificer/powder-bomb` | one-shot 2.4s | 288×224 | 矮人工匠施放火药炸弹，蓄势、命中与余辉消散。 |
+| 重锤震地 | `dwarf-artificer/quake-hammer` | one-shot 2.4s | 288×224 | 矮人工匠施放重锤震地，蓄势、命中与余辉消散。 |
+| 散弹轰击 | `dwarf-artificer/scatter-shot` | one-shot 2.4s | 288×224 | 矮人工匠施放散弹轰击，蓄势、命中与余辉消散。 |
+| 蒸汽冲刺 | `dwarf-artificer/steam-dash` | one-shot 2.4s | 288×224 | 矮人工匠施放蒸汽冲刺，蓄势、命中与余辉消散。 |

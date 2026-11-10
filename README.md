@@ -4,7 +4,7 @@
 
 # pixelfx.
 
-**<!-- count -->261<!-- /count --> pixel art effects and animations, every one a small piece of code.** Fire,
+**<!-- count -->293<!-- /count --> pixel art effects and animations, every one a small piece of code.** Fire,
 explosions, magic, weather, UI, pickups, critters and more. Play them live, recolor and mirror them, drop them into
 a browser game, or export sprite sheets for any engine. Plus a Claude Code skill that makes new ones the way a
 picky pixel artist would: draft, render, look, refine.
@@ -49,9 +49,17 @@ the idea at library scale, with a skill to keep going.
 | **pickups** | 11 | chest open, coin spin, collect burst, crystal shard, gem spin, heart pickup… |
 | **transitions** | 10 | blinds, burn away, crt off, diamond wipe, glitch wipe, iris… |
 | **critters** | 12 | bat, bird, butterfly, eyeball, fish school, flying skull… |
+| **圣殿骑士** | 8 | 天使降临, 奉献圣地, 守护壁垒, 圣光斩, 审判光柱, 冲锋突刺… |
+| **寒霜法师** | 8 | 极寒射线, 暴风雪, 彗星坠落, 霜冻新星, 冰封牢笼, 冰墙… |
+| **猩红刺客** | 8 | 锁链钩索, 绯红处决, 双刃交叉, 飞刃, 残影闪步, 影袭背刺… |
+| **矮人工匠** | 8 | 自动炮塔, 熔炉喷焰, 磁力陷阱, 机械空袭, 火药炸弹, 重锤震地… |
 <!-- /catalog -->
 
 Every effect is a file in `src/fx/<category>/<name>.js`. The [catalog](docs/CATALOG.md) lists them all.
+
+## medieval characters.
+
+Four character categories each provide eight skills: **templar** (armored holy knight), **frost-mage** (robed ice caster), **crimson-assassin** (hooded dual-blade fighter), and **dwarf-artificer** (broad, short engineer with goggles and hammer). Each has visible idle and casting art with skill-specific poses. Use the gallery actor toggle to show or hide the character while viewing the effect. These use optional actor descriptors in the normal effect preview.
 
 ## use one.
 

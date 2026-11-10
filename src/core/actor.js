@@ -109,9 +109,11 @@ export function stockActor(k = 1) {
 
 /** Draw the stock actor with its feet at the painter's origin, at alpha a (dithered). */
 export function drawActor(p, actor = stockActor(), a = 1) {
+  if (typeof actor.draw === "function") { actor.draw(p, a); return; }
   if (a > 0) p.sprite(SPRITES[actor.k === 2 ? 2 : 1], actor.k === 2 ? DUMMY_PAL : HERO_PAL, actor.x, actor.y, { a });
 }
 /** How visible an effect wants the stand-in character at time t (effects may export actorAlpha). */
-export const actorAlphaOf = (mod, t, o) => (typeof mod.actorAlpha === "function" ? mod.actorAlpha(t, o) : 1);
+// Synchronize animated descriptors before effect geometry and character drawing read them.
+export const actorAlphaOf = (mod, t, o) => (o.actor?.setTime?.(t), typeof mod.actorAlpha === "function" ? mod.actorAlpha(t, o) : 1);
 
 export { HERO, HERO2, HERO_PAL, DUMMY_PAL };

@@ -24,4 +24,8 @@ export const categories = [
   { id: "pickups", name: "pickups", blurb: "coins, gems, chests, potions" },
   { id: "transitions", name: "transitions", blurb: "wipes, irises, dissolves" },
   { id: "critters", name: "critters", blurb: "slimes, bats, ghosts, frogs" },
+  {id:'templar',name:'圣殿骑士',blurb:'圣殿骑士八种战斗技能'},
+  {id:'frost-mage',name:'寒霜法师',blurb:'寒霜法师八种战斗技能'},
+  {id:'crimson-assassin',name:'猩红刺客',blurb:'猩红刺客八种战斗技能'},
+  {id:'dwarf-artificer',name:'矮人工匠',blurb:'矮人工匠八种战斗技能'},
 ];

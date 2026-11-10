@@ -261,6 +261,38 @@ import * as critters_jellyfish from "./critters/jellyfish.js";
 import * as critters_slime from "./critters/slime.js";
 import * as critters_snake from "./critters/snake.js";
 import * as critters_wisp from "./critters/wisp.js";
+import * as templar_angelic_descent from "./templar/angelic-descent.js";
+import * as templar_consecrated_ground from "./templar/consecrated-ground.js";
+import * as templar_guardian_rampart from "./templar/guardian-rampart.js";
+import * as templar_holy_cleave from "./templar/holy-cleave.js";
+import * as templar_judgment_pillar from "./templar/judgment-pillar.js";
+import * as templar_lance_charge from "./templar/lance-charge.js";
+import * as templar_orbiting_hammer from "./templar/orbiting-hammer.js";
+import * as templar_shield_bash from "./templar/shield-bash.js";
+import * as frost_mage_absolute_ray from "./frost-mage/absolute-ray.js";
+import * as frost_mage_blizzard from "./frost-mage/blizzard.js";
+import * as frost_mage_comet_fall from "./frost-mage/comet-fall.js";
+import * as frost_mage_freezing_nova from "./frost-mage/freezing-nova.js";
+import * as frost_mage_frozen_prison from "./frost-mage/frozen-prison.js";
+import * as frost_mage_glacier_wall from "./frost-mage/glacier-wall.js";
+import * as frost_mage_ice_aegis from "./frost-mage/ice-aegis.js";
+import * as frost_mage_ice_lance from "./frost-mage/ice-lance.js";
+import * as crimson_assassin_chain_hook from "./crimson-assassin/chain-hook.js";
+import * as crimson_assassin_crimson_execution from "./crimson-assassin/crimson-execution.js";
+import * as crimson_assassin_crossed_daggers from "./crimson-assassin/crossed-daggers.js";
+import * as crimson_assassin_flying_blades from "./crimson-assassin/flying-blades.js";
+import * as crimson_assassin_phantom_step from "./crimson-assassin/phantom-step.js";
+import * as crimson_assassin_shadow_backstab from "./crimson-assassin/shadow-backstab.js";
+import * as crimson_assassin_smoke_screen from "./crimson-assassin/smoke-screen.js";
+import * as crimson_assassin_venom_burst from "./crimson-assassin/venom-burst.js";
+import * as dwarf_artificer_auto_turret from "./dwarf-artificer/auto-turret.js";
+import * as dwarf_artificer_forge_breath from "./dwarf-artificer/forge-breath.js";
+import * as dwarf_artificer_magnetic_snare from "./dwarf-artificer/magnetic-snare.js";
+import * as dwarf_artificer_mechanical_airstrike from "./dwarf-artificer/mechanical-airstrike.js";
+import * as dwarf_artificer_powder_bomb from "./dwarf-artificer/powder-bomb.js";
+import * as dwarf_artificer_quake_hammer from "./dwarf-artificer/quake-hammer.js";
+import * as dwarf_artificer_scatter_shot from "./dwarf-artificer/scatter-shot.js";
+import * as dwarf_artificer_steam_dash from "./dwarf-artificer/steam-dash.js";
 
 export { categories } from "./categories.js";
 
@@ -526,4 +558,36 @@ export const effects = {
   "critters/slime": critters_slime,
   "critters/snake": critters_snake,
   "critters/wisp": critters_wisp,
+  "templar/angelic-descent": templar_angelic_descent,
+  "templar/consecrated-ground": templar_consecrated_ground,
+  "templar/guardian-rampart": templar_guardian_rampart,
+  "templar/holy-cleave": templar_holy_cleave,
+  "templar/judgment-pillar": templar_judgment_pillar,
+  "templar/lance-charge": templar_lance_charge,
+  "templar/orbiting-hammer": templar_orbiting_hammer,
+  "templar/shield-bash": templar_shield_bash,
+  "frost-mage/absolute-ray": frost_mage_absolute_ray,
+  "frost-mage/blizzard": frost_mage_blizzard,
+  "frost-mage/comet-fall": frost_mage_comet_fall,
+  "frost-mage/freezing-nova": frost_mage_freezing_nova,
+  "frost-mage/frozen-prison": frost_mage_frozen_prison,
+  "frost-mage/glacier-wall": frost_mage_glacier_wall,
+  "frost-mage/ice-aegis": frost_mage_ice_aegis,
+  "frost-mage/ice-lance": frost_mage_ice_lance,
+  "crimson-assassin/chain-hook": crimson_assassin_chain_hook,
+  "crimson-assassin/crimson-execution": crimson_assassin_crimson_execution,
+  "crimson-assassin/crossed-daggers": crimson_assassin_crossed_daggers,
+  "crimson-assassin/flying-blades": crimson_assassin_flying_blades,
+  "crimson-assassin/phantom-step": crimson_assassin_phantom_step,
+  "crimson-assassin/shadow-backstab": crimson_assassin_shadow_backstab,
+  "crimson-assassin/smoke-screen": crimson_assassin_smoke_screen,
+  "crimson-assassin/venom-burst": crimson_assassin_venom_burst,
+  "dwarf-artificer/auto-turret": dwarf_artificer_auto_turret,
+  "dwarf-artificer/forge-breath": dwarf_artificer_forge_breath,
+  "dwarf-artificer/magnetic-snare": dwarf_artificer_magnetic_snare,
+  "dwarf-artificer/mechanical-airstrike": dwarf_artificer_mechanical_airstrike,
+  "dwarf-artificer/powder-bomb": dwarf_artificer_powder_bomb,
+  "dwarf-artificer/quake-hammer": dwarf_artificer_quake_hammer,
+  "dwarf-artificer/scatter-shot": dwarf_artificer_scatter_shot,
+  "dwarf-artificer/steam-dash": dwarf_artificer_steam_dash,
 };

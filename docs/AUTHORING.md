@@ -211,3 +211,11 @@ your eyes, feed your references.
 5. **Fix the worst thing, render again.** Three rounds minimum; showpieces take more.
 6. **Act it out** if there's a character: `node tools/act.mjs <id>`. Consecutive frames, not samples.
 7. **Check**: `node tools/check.mjs <id>` until it passes clean.
+
+## Optional animated actor factories
+
+meta.actor may be an options => descriptor function. resolveOptions calls it with merged options only when options.actor is undefined. Existing truthy actor metadata retains stockActor defaults (2 selects stock variant 2); an explicit options.actor descriptor overrides the factory. Factory instances should own their mutable pose state.
+
+A descriptor can expose draw(p, alpha) and setTime(t), plus mask, pixels, x/y, w/h, head and chest for geometry consumers. drawActor calls custom draw(p, alpha) when supplied; otherwise stock sprite drawing remains compatible. actorAlphaOf(mod,t,options) calls options.actor?.setTime?.(t) before evaluating optional mod.actorAlpha(t,options), whose default is 1. Custom callers must synchronize this clock before reading pose-dependent geometry or drawing the descriptor. Factory construction alone does not advance animation.
+
+The painter is already placed at the actor origin; honor alpha and caller palette/flip conventions. Keep effect drawing separate from actor drawing so the gallery actor toggle and effect-only transparent exports work. No act rig is required. See src/core/medieval.js actorFactory for the current animated descriptor implementation.
